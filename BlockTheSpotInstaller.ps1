@@ -246,7 +246,7 @@ try
     $uri = 'https://github.com/mrpond/BlockTheSpot/releases/latest/download/chrome_elf.zip'
   } else {
     Write-Host 'At the moment, the ad blocker may not work properly as the x86 architecture has not received a new update.'
-    $uri = 'https://github.com/mrpond/BlockTheSpot/releases/download/2023.5.20.80/chrome_elf.zip'
+    $uri = 'https://github.com/mrpond/BlockTheSpot/releases/download/2024.10.22.111/chrome_elf.zip'
   }
 
   Get-File -Uri $uri -TargetFile "$elfPath"
